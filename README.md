@@ -20,10 +20,13 @@ MCMCのMetropolis Adjusted Langevin Algorithm (MALA)のC++によるフルスク�
 ## 動作サンプル
 
 LMCで exp(-|x|^0.5) に従う乱数を発生させたときのトレースラインです。確率微分方程式が定常分布を持たないため、発散してしまいます。
+
 ![](images/plot1.png)
 
 LMCで exp(-|x|^4) に従う乱数を発生させたときのトレースラインです。確率微分方程式は定常分布を持ちますが、オイラー近似を行ったものに関しては定常分布を持たないため、発散してしまいます。
+
 ![](images/plot2.png)
 
 MALAで exp(-|x|^4) に従う乱数を発生させた例です。
+
 ![](images/plot3.png)
